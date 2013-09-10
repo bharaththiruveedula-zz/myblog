@@ -4,4 +4,4 @@ paginate: 5
 markdown: redcarpet
 permalink: pretty
 pygments: true
-myurl: http://bharaththiruveedula.github.io/blog
+myurl: /blog
