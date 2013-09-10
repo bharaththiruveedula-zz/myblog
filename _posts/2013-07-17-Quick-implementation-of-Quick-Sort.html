@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Quick implementation of Quick Sort"
+date:   2013-07-17
+categories: 
+---
+<p>I have been reading and practising data structures and algorithms for a while from various websites. Finally I tried to implement quicker quick sort implementation(I mean in terms of number of lines). Here is the code.</p>
+
+{% highlight python %}
+
+a = [10,9,8,7,6,5,4,3,2,1]
+def partition(ar):
+    if ar == []:
+        return []
+    return partition([x for x in ar[1:] if x<ar[0]])+ar[0:1]+partition([x for x in ar[1:] if x>=ar[0]])
+
+print partition(a)
+
+{% endhighlight %}
+</p>

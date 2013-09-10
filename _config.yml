@@ -1,0 +1,6 @@
+name: Bharath's Blog
+description: ""
+paginate: 5
+markdown: redcarpet
+permalink: pretty
+pygments: true
